@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background: url(img/background.png)
+}
+
+h1 {
+  width: 240px;
+  margin: 250px auto 8px;
+  font-family: "Bungee Shade";
+  text-align: center;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 64px;
+}
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+.start{
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}

@@ -1,25 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
 <html>
     <head>
-        <title>My habits!</title>
-        <body>
-              <div>
-                  <h1><a href="/">А что говорить то</a></h1>
-                  {% for post in posts %}
-        <div>
-            <p>published: {{ post.published_date }}</p>
-            <h1><a href="">{{ post.title }}</a></h1>
-            <p>{{ post.text|linebreaksbr }}</p>
+      <meta charset="utf-8">
+      <title>My habits!</title>
+      <link rel = "stylesheet" href = "style.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link href="https://fonts.google.com/specimen/Comfortaa#standard-styles" rel="stylesheet" type="text/css">
+      <link href="https://fonts.google.com/specimen/Bungee+Shade?category=Display#standard-styles" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+      <header class="site-header">
+        <div class="container">
+          <h1>My Habits!</h1>
+          <p> Создай свою привычку </p>
+          <div class="start">
+            <a href="start.html">Start</a>
+          </div>
         </div>
-    {% endfor %}
-                  <p></p>
-                  <h2><a href=""></a></h2>
-                  <p>ну блять</p>
-              </div>
-
-              <div>
-                  <p>хуй</p>
-                  <h2><a href=""></a></h2>
-                  <p>.</p>
-              </div>
-          </body>
-      </html>
+      </header>
+    </body>
