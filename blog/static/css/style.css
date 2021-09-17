@@ -3,7 +3,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  color:#333;
 }
 
 *,
@@ -32,14 +31,13 @@ h1,h2,h3,h4,h5,h6 {
   height: 100vh;
   background: url(https://phonoteka.org/uploads/posts/2021-05/1620828179_16-phonoteka_org-p-ekologiya-fon-dlya-prezentatsii-minimalizm-17.jpg) center no-repeat;
   -webit-background-size: cover;
-  background-size: cover;
 }
 
 .intro_inner{
   width: 100%;
   max-width: 880px;
   margin: 0 auto;
-  color:#333;
+  color:#000;
   font-family: 'Bungee', cursive;
 
   text-align: center;
@@ -62,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .header{
   width: 100%;
-  position: absolute;
+  position:fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -145,4 +143,87 @@ h1,h2,h3,h4,h5,h6 {
 .btn:hover{
   background-color: #000;
   color:#fff;
+}
+
+.quote{
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 120px;
+  padding-left: 80px;
+  line-height: 1.2;
+
+}
+.conteiner_about{
+  margin: 0 auto;
+  padding: 80px;
+  background-color: #fff;
+  display: inline-block;
+  transition: background 0.2s ease;
+}
+.conteiner_about:hover{
+  background-color: #D7D9A5;
+}
+.section_about_title{
+  padding-top: 120px;
+  padding-bottom: : 50px;
+  margin: 0 auto;
+  font-family: 'Bungee', cursive;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.section_about_text{
+  padding-bottom: 50px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 2;
+  align-items: center;
+}
+
+.section_insruction{
+  padding: 120px;
+}
+
+.section_insruction_title{
+  font-family: 'Bungee', cursive;
+  font-size: 30px;
+}
+
+.menudurable{
+  right: 1000px;
+
+  animation: 0.1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section_insruction{
+  margin: 0 auto;
+  padding: 80px;
+  padding-right: 800px;
+  background-color: #fff;
+  display: inline-block;
+  transition: background 0.2s ease;
+}
+.section_insruction:hover{
+  background-color: #D7D9A5;
 }
