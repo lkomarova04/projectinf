@@ -168,15 +168,17 @@ h1,h2,h3,h4,h5,h6 {
 .section_about_title{
   padding-top: 120px;
   padding-bottom: : 50px;
+  padding-left: 650px;
   margin: 0 auto;
   font-family: 'Bungee', cursive;
   font-size: 30px;
-  align-items: center;
-  text-align: center;
 }
-
+.images_about{
+  left:0;
+}
 .section_about_text{
-  padding-bottom: 50px;
+  padding-left: 600px;
+  padding-bottom: 25px;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
   line-height: 2;
@@ -191,9 +193,17 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Bungee', cursive;
   font-size: 30px;
 }
+.section_instruction_text{
+  left:0;
+  padding-right: 500;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+.instruction_menurable{
+  padding-left: 600px;
+}
 
 .menudurable{
-  right: 1000px;
 
   animation: 0.1s linear 0s normal none infinite running rot;
   -webkit-animation: 1s linear 0s normal none infinite running rot;
@@ -226,4 +236,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 .section_insruction:hover{
   background-color: #D7D9A5;
+}
+
+.social_list{
+  padding-right: 100px;
+}
+
+.section_contact{
+  padding-left:80px;
+}
+.section_contact_title{
+  font-family: 'Bungee', cursive;
 }
