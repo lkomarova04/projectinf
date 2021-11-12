@@ -177,8 +177,8 @@ h1,h2,h3,h4,h5,h6 {
   left:0;
 }
 .section_about_text{
-  padding-left: 600px;
-  padding-bottom: 25px;
+  padding-left: 1px;
+  padding-bottom: 5px;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
   line-height: 2;
